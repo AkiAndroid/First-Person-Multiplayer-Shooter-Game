@@ -655,10 +655,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: e88d7160-a030-4963-bbc3-589e7389ae20
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: SUVIVAL OF THE FITTEST
+  organizationId: akilan4200
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

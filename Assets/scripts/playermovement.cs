@@ -50,7 +50,7 @@ public class playermovement : MonoBehaviour
         //flying!!!
         float flyaxis = Input.GetAxis("Flying");
 
-        Debug.Log(oldflyaxis);
+
 
         Transform PlayerTransForm = gameObject.transform;
 

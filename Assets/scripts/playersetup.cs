@@ -16,6 +16,10 @@ public class playersetup : NetworkBehaviour
     [SerializeField]
     GameObject playerGraphics;
 
+    [SerializeField]
+    GameObject PlayerUiPrefab;
+    private GameObject PlayerUiInstance;
+
     private void Start()
     {
         if (!isLocalPlayer)
@@ -26,6 +30,9 @@ public class playersetup : NetworkBehaviour
         else
         {
             SetLayerRecursively(playerGraphics, LayerMask.NameToLayer(dontDrawLayer));
+
+            PlayerUiInstance=Instantiate(PlayerUiPrefab);
+            PlayerUiInstance.name = PlayerUiPrefab.name;
         }
 
         GetComponent<Player>().Setup();
@@ -58,6 +65,7 @@ public class playersetup : NetworkBehaviour
 
     private void OnDisable()
     {
+        Destroy(PlayerUiInstance);
         GameManager.UnRegisterPlayer(transform.name);
     }
     public override void OnStartClient()
