@@ -29,7 +29,7 @@ by Retro.inc<br />
 
 *Weapon System with Raycasting for Precison<br />
 
-*FPS Elevation and Motion Controll with Character Controller<br />
+*FPS Elevation and Motion Control with Character Controller<br />
 
 # GAMEPLAY
 
