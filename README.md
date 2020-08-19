@@ -14,12 +14,19 @@ by Retro.inc<br />
 # Features of Unity Used:
 <br />
 *LAN Networking<br />
+
 *Multiplayer Online Match Making<br />
+
 *Management of Multiplayer Statstics and Movement data<br />
+
 *NavMesh and AI<br />
+
 *Partical Simulation and Effects<br />
+
 *Terrain Mapping and Route Mapping<br />
+
 *Weapon System with Raycasting for Precison<br />
+
 *FPS Elevation and Motion Controll with Character Controller<br />
 
 
